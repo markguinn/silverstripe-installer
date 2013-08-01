@@ -1,11 +1,19 @@
 {
-	"name": "silverstripe/installer",
-	"description": "The SilverStripe Framework Installer",
+	"name": "markguinn/ssinstaller",
+	"description": "The SilverStripe Framework Installer - modified to suit my needs",
 	"require": {
 		"php": ">=5.3.2",
 		"silverstripe/cms": "self.version",
 		"silverstripe/framework": "self.version",
-		"silverstripe-themes/simple": "*"
+		"markguinn/silverstripe-deploytools": "dev-master",
+		"markguinn/silverstripe-email-helpers": "dev-master",
+		"rywa/silverstripe-foundation": "dev-master",
+		"rywa/silverstripe-foundation-forms": "dev-master",
+		"unclecheese/betterbuttons": "dev-master",
+		"unclecheese/zen-fields": "dev-master",
+		"ajshort/silverstripe-gridfieldextensions": "dev-master",
+		"silverstripe/dashboard": "dev-master",
+		"silverstripe/userforms": "dev-master"
 	},
 	"config": {
 		"process-timeout": 600	
