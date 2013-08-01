@@ -8,3 +8,16 @@ silverstripe-cache
 .idea
 .DS_Store
 vendor/
+
+# modules managed by composer
+betterbuttons/
+cms/
+dashboard/
+deploytools/
+email-helpers/
+foundationforms/
+framework/
+gridfieldextensions/
+themes/foundation/
+userforms/
+zen_fields/
